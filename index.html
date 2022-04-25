@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>JogoDaVelha</title>
+</head>
+<body>
+    <header>
+        <h1>Jogo da Velha</h1>
+    </header>
+
+        <div>
+            <div id="1" class="bloco" onclick="selecionarBloco(this.id)">-</div>
+            <div id="2" class="bloco" onclick="selecionarBloco(this.id)">-</div>
+            <div id="3" class="bloco" onclick="selecionarBloco(this.id)">-</div>
+        </div>
+
+        <div>
+            <div id="4" class="bloco" onclick="selecionarBloco(this.id)">-</div>
+            <div id="5" class="bloco" onclick="selecionarBloco(this.id)">-</div>
+            <div id="6" class="bloco" onclick="selecionarBloco(this.id)">-</div>
+        </div>
+
+        <div>
+            <div id="7" class="bloco" onclick="selecionarBloco(this.id)">-</div>
+            <div id="8" class="bloco" onclick="selecionarBloco(this.id)">-</div>
+            <div id="9" class="bloco" onclick="selecionarBloco(this.id)">-</div>
+        </div>
+
+        <div class="jogador">
+            <label>
+                Jogador:
+            </label>
+            <label id="jogador-selecionado">
+
+            </label>
+        </div>
+
+        <div class="vencedor">
+            <label>
+                Vencedor:
+            </label>
+            <label id="vencedor-selecionado">
+
+            </label>
+        </div>
+
+        <div>
+            <button onclick="reiniciar()">Reiniciar</button>
+        </div>        
+
+
+    <footer>
+        <p>Desenvolvido por <br>Eber Leocádio Pereira Júnior</p>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>
